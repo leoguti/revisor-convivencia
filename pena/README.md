@@ -84,11 +84,26 @@ Al hacer clic en un botón, se llena automáticamente el campo de texto con ese 
 ```
 
 ### Paso 3 - Sube tu código
-1. Ve a tu carpeta `pena/` en el repo `revisor-convivencia`
-2. Crea un archivo `index.html`
-3. Pega todo el código que generó Copilot
-4. Haz commit
-5. **IMPORTANTE:** Después consigue el manual de convivencia real y reemplaza el texto de la variable `manualConvivencia` con las normas reales del Salesiano
+1. Ve al repo **revisor-convivencia** en GitHub: https://github.com/leoguti/revisor-convivencia
+2. Primero acepta la invitación si no lo has hecho (te aparece un banner amarillo arriba)
+3. Entra a tu carpeta
+4. Haz clic en **Add file** → **Create new file**
+5. En el nombre del archivo escribe: `index.html`
+6. Pega todo el código que generó Copilot
+7. Abajo haz clic en el botón verde **Commit changes**
 
-### Paso 4 - Verifica
-Abre tu página en GitHub Pages, prueba con los casos de ejemplo y verifica que encuentre normas relacionadas.
+### Paso 4 - Ver tu página en internet
+Tu página ya está publicada en GitHub Pages. Para verla:
+
+1. Ve a: **https://leoguti.github.io/revisor-convivencia/TU-CARPETA/**
+2. Si no carga, espera 1-2 minutos y recarga la página (F5)
+3. Si sale error 404, revisa que tu archivo se llame exactamente `index.html` (todo en minúsculas)
+
+**Tu link directo es:**
+https://leoguti.github.io/revisor-convivencia/pena/
+
+### Paso 5 - Verifica
+Abre tu link, prueba con los casos de ejemplo y verifica que encuentre normas relacionadas.
+
+### Paso 6 - El manual real
+Consigue el manual de convivencia del Salesiano y reemplaza el texto de la variable `manualConvivencia` en tu código con las normas reales.
