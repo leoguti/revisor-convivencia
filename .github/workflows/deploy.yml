@@ -1,0 +1,22 @@
+name: Deploy con API Key segura
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Inyectar API key en el HTML
+        run: |
+          sed -i 's/PEGAR_MI_KEY_AQUI/${{ secrets.GEMINI_API_KEY }}/g' pena/index.html
+
+      - name: Publicar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
